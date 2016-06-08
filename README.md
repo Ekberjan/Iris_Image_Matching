@@ -23,16 +23,10 @@ http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/doc/
 
 7. You can change relevant contents of file `configuration.ini` for other purposes, such as writing out the matching score result into a file, etc. Read the above mentioned documentation for further details. 
 8. Assume that these are your two input images:
-
 ![1](https://cloud.githubusercontent.com/assets/7311045/15889894/b4e44bc2-2d75-11e6-864c-4e4a187bb4b5.jpg)
-
 ![2](https://cloud.githubusercontent.com/assets/7311045/15889898/b9b6c0d0-2d75-11e6-8bd5-4bd342f411a5.jpg)
-
-
 This is the final output: 
-
 ![screenshot](https://cloud.githubusercontent.com/assets/7311045/15889901/bf40f390-2d75-11e6-88a1-9740ba708d4d.png)
-
 9. This distribution is subject to GNU GENERAL PUBLIC LICENSE. 
 
 
