@@ -1,0 +1,106 @@
+﻿Build started 11.4.2016 09:43:26.
+     1>Project "D:\Workspace\C++\Iris\myIris\myIris\myIris.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D "WIN32" /D NDEBUG /D _CONSOLE /D "_LIB" /D "_CRT_SECURE_NO_WARNINGS" /D "_UNICODE" /D "UNICODE" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\myIris.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirCircle.h(95): warning C4251: 'Proline::pirCircle::mCenter' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'Proline::pirCircle'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(176): warning C4251: 'Proline::pirEye::mpOriginalImage' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(184): warning C4251: 'Proline::pirEye::mpSegmentedImage' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(187): warning C4251: 'Proline::pirEye::mpMask' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(190): warning C4251: 'Proline::pirEye::mpNormalizedImage' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(193): warning C4251: 'Proline::pirEye::mpNormalizedMask' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(196): warning C4251: 'Proline::pirEye::mpIrisCode' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(205): warning C4251: 'Proline::pirEye::mCoarsePupilContour' : class 'std::vector<cv::Point,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(208): warning C4251: 'Proline::pirEye::mCoarseIrisContour' : class 'std::vector<cv::Point,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(211): warning C4251: 'Proline::pirEye::mThetaCoarsePupil' : class 'std::vector<float,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>d:\workspace\c++\iris\myiris\x64\release\headerfiles\iris\pirEye.h(214): warning C4251: 'Proline::pirEye::mThetaCoarseIris' : class 'std::vector<float,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirEye'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(72): warning C4251: 'Proline::pirManager::mFilenameListOfImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(73): warning C4251: 'Proline::pirManager::mListOfImages' : class 'std::vector<cv::String,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 with
+                 [
+                     _Ty=cv::String
+                 ]
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(74): warning C4251: 'Proline::pirManager::mInputDirOriginalImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(75): warning C4251: 'Proline::pirManager::mInputDirMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(76): warning C4251: 'Proline::pirManager::mInputDirParameters' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(77): warning C4251: 'Proline::pirManager::mInputDirNormalizedImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(78): warning C4251: 'Proline::pirManager::mInputDirNormalizedMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(79): warning C4251: 'Proline::pirManager::mInputDirIrisCodes' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(82): warning C4251: 'Proline::pirManager::mOutputDirSegmentedImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(83): warning C4251: 'Proline::pirManager::mOutputDirParameters' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(84): warning C4251: 'Proline::pirManager::mOutputDirMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(85): warning C4251: 'Proline::pirManager::mOutputDirNormalizedImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(86): warning C4251: 'Proline::pirManager::mOutputDirNormalizedMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(87): warning C4251: 'Proline::pirManager::mOutputDirIrisCodes' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(88): warning C4251: 'Proline::pirManager::mOutputFileMatchingScores' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(100): warning C4251: 'Proline::pirManager::mFilenameGaborFilters' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(101): warning C4251: 'Proline::pirManager::mGaborFilters' : class 'std::vector<cv::Mat,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(102): warning C4251: 'Proline::pirManager::mFilenameApplicationPoints' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(103): warning C4251: 'Proline::pirManager::mpApplicationPoints' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(106): warning C4251: 'Proline::pirManager::mSuffixSegmentedImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(107): warning C4251: 'Proline::pirManager::mSuffixParameters' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(108): warning C4251: 'Proline::pirManager::mSuffixMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(109): warning C4251: 'Proline::pirManager::mSuffixNormalizedImages' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(110): warning C4251: 'Proline::pirManager::mSuffixNormalizedMasks' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(111): warning C4251: 'Proline::pirManager::mSuffixIrisCodes' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(114): warning C4251: 'Proline::pirManager::mMapBool' : class 'std::map<std::string,bool *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool *
+                 ]
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(115): warning C4251: 'Proline::pirManager::mMapInt' : class 'std::map<std::string,int *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=int *
+                 ]
+     1>D:\Workspace\C++\Iris\myIris\x64\Release\HeaderFiles\Iris\pirManager.h(116): warning C4251: 'Proline::pirManager::mMapString' : class 'std::map<std::string,std::string *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Proline::pirManager'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=std::string *
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\C++\Iris\myIris\x64\Release\myIris.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Workspace\C++\Iris\myIris\x64\Release\Libs" opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib irisRecognizer.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Workspace\C++\Iris\myIris\x64\Release\myIris.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\C++\Iris\myIris\x64\Release\myIris.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\pirCircle.obj
+         x64\Release\pirEye.obj
+         x64\Release\pirManager.obj
+         x64\Release\pirProcessings.obj
+         x64\Release\stdafx.obj
+            Creating library D:\Workspace\C++\Iris\myIris\x64\Release\myIris.lib and object D:\Workspace\C++\Iris\myIris\x64\Release\myIris.exp
+         Generating code
+         Finished generating code
+         myIris.vcxproj -> D:\Workspace\C++\Iris\myIris\x64\Release\myIris.exe
+     1>Done Building Project "D:\Workspace\C++\Iris\myIris\myIris\myIris.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53
