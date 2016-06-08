@@ -27,7 +27,7 @@ http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/doc/
 
 9. Assume that these are your two input images:
 ![1](https://cloud.githubusercontent.com/assets/7311045/15889894/b4e44bc2-2d75-11e6-864c-4e4a187bb4b5.jpg)
-![2](https://cloud.githubusercontent.com/assets/7311045/15889898/b9b6c0d0-2d75-11e6-8bd5-4bd342f411a5.jpg)
+![2](https://cloud.githubusercontent.com/assets/7311045/15890226/38a7c532-2d77-11e6-8c6d-dc0c2e527605.jpg)
 
 This is the final output: 
 
