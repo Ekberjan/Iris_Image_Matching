@@ -2,7 +2,7 @@
 
 **C++ based iris image verification code using OpenCV**
 
-This iris verification algorithm is originally based on *A Biometric System for Iris OSIRIS version 4.1* developed by Telecom Sud Paris. You may access the original version here: 
+This iris verification algorithm is originally based on *A Biometric System for Iris OSIRIS version 4.1* developed by Telecom Sud Paris. The original version is based on C-style OpenCV, whereas this version is based on C++. You may access the original version here: 
 
 http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/
 
