@@ -24,7 +24,7 @@ http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/doc/
 7. You can change relevant contents of file `configuration.ini` for other purposes, such as writing out the matching score result into a file, etc. Read the above mentioned documentation for further details. 
 8. Assume that these are your two input images:
 
-[1]
+![1]
 
 
 
