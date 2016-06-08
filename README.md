@@ -1,4 +1,4 @@
-# **Iris-Verification**
+# **Iris Image Matching**
 
 **C++ based iris image verification code using OpenCV**
 
