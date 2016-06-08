@@ -5,7 +5,7 @@ This iris verification algorithm is originally based on *A Biometric System for 
 
 http://svnext.it-sudparis.eu/svnview2-eph/ref_syst/Iris_Osiris_v4.1/
 
-**Before you use: *
+**Before you use:**
 
 1. Make sure you have installed OpenCV on your computer, since the code relies on it.
 
